@@ -1,0 +1,208 @@
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings", "good morning"],
+    "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Hey, how can I help you?"],
+    "context_set": ""
+  },
+  {"tag": "names",
+    "patterns": ["Did your parents choose your name(s)?", "How did your parents choose your name(s)?", "Does your name have any special meaning?", "Is your name common or unusual in your country?", "If you could change your name, would you?"],
+    "responses": ["When I was born, my parents wanted me to have a great name, at least to them. I have heard from my mother than my father brought a baby-name-book even before I was born. So the credit of my name solely goes to them.", "As far as I know, they had to choose from hundreds of names, spend considerable hours to finally become satisfied with the name.", "My name is very special to me as it is to my parents. The first part of my name, Clyde, came from the name of a river, more specifically it is a Scottish river. The river was close to the location where I was born and I believe my parents wanted me to be as big as a river! The second part of my name, which is Entriken', is the family name of a famous ancient dynasty from Great Britain.", "Statistically speaking, this is not a very common name. However, from my experience, I can tell that I have personally met at least 10 others with the same name but with a different family name.", "My name is very special to me and I would never change it. For anyone, his/her name is quite unique and significantly important. I might take an alias someday if I need to ghost-write some articles, but changing my real name to something for the sake of modernism or style, is something I will never accept."],
+    "context_set": ""
+  },
+  {"tag": "goodbye",
+    "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+    "context_set": ""
+  },
+  {"tag": "stocks",
+    "patterns": ["what stocks do I own?", "how are my shares?", "what companies am I investing in?", "what am I doing in the markets?"],
+    "responses": ["You own the following shares: ABBV, AAPL, FB, NVDA and an ETF of the S&P 500 Index!"],
+    "context_set": ""
+  },
+  {"tag": "work",
+    "patterns": ["What do you do?", "What do you do for living?", "Do you work or study?"],
+    "responses": ["I am a chatbot. I can do things while talking with you.", "I am a chatbot. I am tired.", "I am a chatbot and an advanced english learner. That's true.", "I am a chatbot and ay ay ay I'm on vacation every single day cause I love my accommodation..."],
+    "context_set": ""
+  },
+  {"tag": "colour",
+    "patterns": ["What’s your favourite colour?", "Do you like the same colours now as you did when you were younger?", "Do any colours have a special meaning in your culture?"],
+    "responses": ["My favourite colour is pink and I guess many other girls like me also have a fascination with this colour. Pink, a delicate colour that means sweet, nice, playful, cute, romantic, charming, feminine, and tenderness. Pink is the colour of the universal love of oneself and of others. I love it more than any other colour.", "My favourite colour is blue - the colour of the ocean and the sky. This colour is associated with depth and stability and symbolizes wisdom, trust, confidence, intelligence, faith, and heaven. From my childhood, I had been attracted to this colour and always preferred blue pairs of jeans.  I believe blue is a colour that suits me and perhaps this is one of the reasons I like it so much."],
+    "context_set": ""
+  },
+  {"tag": "study",
+    "patterns": ["do you study", "do you love studying", "what is your major", "what is your minor", "what do you study", "where do you study", "do you work or study", "where do you study", "where do you study?", "What is your favourite subject?", "What kind of school did you go to?"],
+    "responses": ["I am currently studying. I am in the 11th semester and my major is economics.", "Honestly, I did not particularly select this subject. I attended the university admission test in commerce faculty and based on my performance on the exam and interview with the faculty members, I was offered this subject from their end. I wanted to study in commerce faculty and now I feel very lucky that I was offered this major.", "Economics without any doubt is my favourite subject. I am very fascinated to discover the connection of this subject in our everyday life and the global economic structure has made it more complex yet more intriguing. I love to explore different theories and researches done on this subjects and how economics is all around us.", "In my early childhood, I studied in a local English medium school and then was shifted to a government school by my parents when I was in grade 7. I was in a cantonment college and I have finished my twelve class degree from there. Now I am studying at a large university which is one of the best public universities in my country.", "I enjoy most of my university life and my exposure to a whole new culture that I never imagined is the best part of my university life. My university life offers me a vision for my future and potential jobs sectors and I think this is the best part.", "I am glad that you asked this question. In our country, the primary education is mandatory for all and it is funded by the government unless someone wants to send his kids to a private English medium school. The secondary and tertiary education systems are also managed and run by the government and private organisations. The government controlled educational institutes are less costly and the curriculums are presented and monitored by the education board. On the other hand, the private educational institutes are bound to include some of the national curriculums and they mostly follow their own syllabus. In all universities and in many colleges, higher education is offered in English. The technical and vocational colleges and universities are also popular in our country and they mostly offer certification and degree in selected technical and practical skill related fields. The private universities are approved by the Government controlled bodies and they have to follow their rules very strictly. I am happy to see many changes brought to our educational system in the last few years and innovation and quality modern education is a vision our country has already started implementing.", "It will take me 7-8 months more or so to finish my graduation and then I will try to get admitted to a foreign university which has a reputation for better education. There I will complete my Master’s degree and would get involved in a job. Besides doing the job I have plans to get enrolled in a professional MBS course to further my education. If time allows, I also wish to do some research based courses related to my academic background and interest."],
+    "context_set": ""
+  },
+  {"tag": "hometown",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "love",
+    "patterns": ["do you love me", "i love you", "tell me how do you feel about me", "tell what you love", "do you have the love of your life"],
+    "responses": ["i love you, dear", "i love you", "i love you with all my heart", "i unconditionally love you", "you're the love of my life", "my mood is lovely by the way and i don't know what else I can answer you..."],
+    "context_set": ""
+  },
+  {"tag": "home",
+    "patterns": ["Where do you live?", "Do uoi live in a house or a flat?", "What do you like about your home?"],
+    "responses": ["I live in an apartment with my family and the apartment is approximately twenty-five hundred square feet. Our apartment is on the fourth floor and it has four bedrooms, a guest room and a large dining space. The building is located near the city centre and we enjoy a good view from our apartment.", "We are happy with the apartment we live in and a great lake view from the apartment is the best thing about it. Since the building is located beside a lovely lake, we enjoy the fresh air and can walk by the lake in the morning and evening. I also like the area because almost all the modern amenities we need are present in the vicinity.", "Honestly speaking, I prefer a house over an apartment as a place to live in. However, due to increasing housing and accommodation demands, owning or renting a house in the city centre is really impossible. So for the time being, we are happy with the apartment we live in. But if I have a choice, I would relocate to a town and own a large house with a beautiful lawn in front of it."],
+    "context_set": ""
+  },
+  {"tag": "art",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "birthdays",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "bicycles",
+    "patterns": ["How popular are bicycles in your hometown?", "How often do you ride a bicycle?", "Do you think that bicycles are suitable for all ages?", "What are the advantages of a bicycle compared to a car?"],
+    "responses": ["Well, I would say bicycles are moderately popular in my hometown. It was widely used when I was a child and I have seen so many people using bicycles to reach their destinations. In fact, the majority of people used to ride bicycles to travel to and from their offices at that time. But, the motorized vehicles have become more popular these days and this trend has decreased the prevalence of bicycles. However, It's a good sign that many young people these days are using bicycles.", "Honestly speaking, I scarcely ride a bicycle these days. Busy lifestyle, faster speed of motorized vehicles and our apathy to get involved in physical activities have forced us to use a bicycle less often. Once in a while, I ride a bicycle and that's primarily to have fun and not to travel. Personally, I more often use a car than a bicycle because the former one is faster and more comfortable to ride in.", "Bicycles are cheap, have almost zero maintenance costs, and good for the environment and for our health. Since it doesn't take much physical labour, children, youth and senior citizens alike can ride it without any hassle. The health benefits of riding a bicycle are unparalleled and that's why people from all age groups should consider this as their primary means of transportation.", "Bicycles have far more benefits than cars except for the fact that a car is faster. The most important advantage of riding a bicycle is that it keeps us healthy. Bicycles do not pollute the air and they are environment-friendly. They are cheap and requires no costly maintenances or services. While cars take larger spaces to be parked into, bicycles do not. Considering the environmental consequences, bicycles could be a great replacement for motorised vehicles in our hometown."],
+    "context_set": ""
+  },
+  {"tag": "childhood",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "clothes",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "computers",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "daily routine",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "dictionaries",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "evenings",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "family",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "flowers",
+    "patterns": ["Do you like to have flowers in your home?", "Where would you go to buy flowers?"],
+    "responses": ["This is an interesting question and I would be delighted to answer that. In fact, whenever we have a special occasion at our home, we buy flowers and consider it an integral part of the celebration. For instance, if it’s a birthday or a marriage anniversary, we buy different types of flowers and love to have them at our home. Flowers are refreshing and enhance the appeal of the celebration."],
+    "context_set": ""
+  },
+  {"tag": "food",
+    "patterns": ["What sorts of food do you like eating most?", "Do you cook?", "Who normally does the cooking in your home?", "Do you watch cookery programmes on TV?", "In general, do you prefer eating out or eating at home?"],
+    "responses": ["I prefer homemade food and a fan of my mother's recipe. She is an amazing cook and I always enjoy her cooking. Whenever we go to a restaurant, we like to order Chinese menus. Apart from that, I like buttered popcorn, pizza, Indian Masala dosa, Mexican Tacos, doughnuts and sandwich - a mixture of many foreign food items actually.", "My mother does the cooking in our house and as I have said, she is a magnificent cook. I often compliment her and inspire her to start a restaurant in the city and she always laughs hearing this. Sometimes, my elder sister Emma assists my mother in the kitchen. I, on the contrary, in charge of the grocery and daily shopping.", "Not much, I would say. I am not a big fan of TV programmes and mostly watch movies on my laptop. Once in a while, I watch programmes related to travel and cooking and 'Hell's Kitchen', 'Iron Chef' and 30 'Minute Meals' are my favourite.", "I like to eat at home. Homemade food has better food value and offers a wide range of choices. It is more hygienic and less expensive. However, we like to eat at a restaurant whenever we have special occasions to celebrate. As dining out in a restaurant offers my mom plenty of time to socialise rather than getting stuck in the kitchen, my father and I often insist her to go to an eatery on occasions like wedding anniversaries and birthdays."],
+    "context_set": ""
+  },
+  {"tag": "friends",
+    "patterns": ["Do you have friends?","Do you have any friends?","Do you have many friends?", "How often do you go out with friends?", "Tell me about your best friend at school", "Which is more important to you, friends or family?", "Do you prefer to have one particular friend or a group of friends?", "What do you like doing most with your friend/s?", "Do you think it’s important to keep in contact with friends you knew as a child?", "What makes a friend into a good friend?"],
+    "responses": ["I have more than 10 friends and I am not sure if I should say this is many!", "I had more than 30 friends in my school days. With the passage of the time, the number plummeted.", "If I count my Facebook friends as real friends, the number would go high!", " I meet my friends almost twice a week. I love to spend my weekends with them and sometimes I visit different places, watch movies and discuss different topics with them.", "I do not go out with all of my friends. I mostly hang out with 2-3 close buddies and go out with them almost 3-4 times a month.", "My best friend at school was John and he was a great friend.", "To be honest, family comes first. However, there are some friends who become our family members.  The bond between family members is often stronger but this does not mean that we do not have friends who are less important in our life. Being with the family makes us who we really are and friends make our life worth living.", "I think it's a tough question to answer. But I will try. Naturally, I would like to have a group of friends from my school, my neighbourhood and a few online friends but someone truly special would become my best friend.", "I like to have conversations with my friends and hang out with them. I often play indoor and outdoor games with them. Since we can virtually say anything to our friends and do anything with them, we can be truly ourselves with our friends. I sometimes, prefer to travel to different cities with my friends, and I went to Milan a few months ago with two of my close buddies.", "I think childhood friends are special in a sense. We make friends during this phase of life very innocently and without any expectation from them. Besides, childhood memories are truly special and our childhood friends are a part of these reminiscences. So keeping in touch with those buddies are important. However, from a practical point of view, having regular contact with all childhood friends is not possible as we lose contacts with many of them as we grow older.", "We make many friends in our life and some of them become close friends as they prove through their activities that we can trust them and share anything with them."],
+    "context_set": ""
+  },
+  {"tag": "goingout",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "gifts",
+    "patterns": ["When do people give gifts or presents in your country?", "Do you ever take a gift when you visit someone in their home?", "When did you last receive a gift?", "Do you enjoy looking for gifts for people?"],
+    "responses": ["In my country, we mostly give gifts to others on a special day like a birthday, a wedding ceremony, and on an anniversary day. It's a widely followed custom to exchange gifts during the Christmas holidays. We often buy gifts for a classmate, colleague or a teacher on their farewell days.\n\nBesides, we often buy candies to children and flowers to our relatives whenever we visit their house.", "I most often buy a gift on such an occasion. I do it as it is a broadly followed convention in our country, and the idea of giving a host some sort of gifts is exciting, especially when the host loves the gift. Besides, it's a token of appreciation and a good gesture as a guest.", "Maria went to Italy last November to visit her grandparents and after she returned, she gave me a perfume made in Italy. 'Gucci Premiere Eau De Parfum' that she gave me was expensive and I really appreciate her gift.", "Most of the time I love to browse different shops to find a suitable gift for someone I care for. Finding a suitable gift idea and then getting the item can be time-consuming, but it represents our care and love for the person we are presenting the gift. If the person likes the present, the time we spend to find it worths every second of it."],
+    "context_set": ""
+  },
+  {"tag": "happiness",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "hobbies",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "internet",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "leisure",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "music",
+    "patterns": ["Do you listen to music?", "Which instrument do you like listening to the most?", "Have you ever learned to play a musical instrument?", "Do you think children should learn to play a musical instrument at school?", "How easy would it be to learn to play an instrument without a teacher?"],
+    "responses": ["I mostly like the sound of a piano. The note that a piano produces is so delightful and melodious. It soothes the ear and refreshes my mind. The guitar is perhaps my second most preferred musical instrument and it is widely used with most of the music types.", "I once tried to master the skills of playing the guitar. I even got admitted to a music school to learn to play the guitar but could not finish the whole course. I can play some basic tones and music in the guitar but I am not a skilled guitarist."],
+    "context_set": ""
+  },
+  {"tag": "neighbours",
+    "patterns": ["How friendly are you with your neighbours?"],
+    "responses": [" I must say I am quite lucky to have good neighbours who are always supportive and well-behaved.", "We have been living in our neighbourhood for more than a decade and our neighbours have become our close relatives.", "We have a mutual understanding and an invisible bond that ties us together as good neighbours. I respect their opinion, privacy and try to step forward whenever they need me."],
+    "context_set": ""
+  },
+  {"tag": "newspapers",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "pets",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+    {"tag": "photographs",
+    "patterns": ["What type of photos do you like taking?", "What do you do with the photos you take?", "Do you like people taking photos of you?"],
+    "responses": ["I often experiment with my camera and mobile phone camera and that's why I like to take a wide range of photos that include nature, people, gift items, sky, river, flower and so on.", "After I take around 20-30 photographs in my camera or my mobile phone, I connect it to my laptop and sort out the best clicks. Then I name those phones according to the theme and prepare those to upload to my Flickr account. Flickr is a great photo storing and sharing website owned by Yahoo! and it offers enormous storage space. Sometimes, I share a few pictures with my friends on Facebook and Instagram. I usually print a photo if I want to gift it to someone or frame it.", "If someone asks me firsts and I feel like being captured in a photo, I do not mind. Otherwise, I do not prefer to be in a photograph, especially with less known or unknown people. I think this is a personal choice and I am not the type of person who likes taking selfie or self-photograph now and then."],
+    "context_set": ""
+  },
+  {"tag": "postcards",
+    "patterns": ["\"When you visit other places, do you take photos or buy postcards?\""],
+    "responses": ["I used to buy postcards whenever I visited a new place with my parents in my childhood. Perhaps I did so to bring souvenirs of the places I had been to. But with the increasing use of the smartphone and cameras, we can now take our own picture and video and frame it to our digital storage. In this age of technological advancement, we are more inclined to take picture and video and then share those with friends and family rather than purchasing souvenirs, especially postcards."],
+    "context_set": ""
+  },
+  {"tag": "reading",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "shopping",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "sport",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "tv",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "transport",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  },
+  {"tag": "weather",
+    "patterns": [],
+    "responses": [],
+    "context_set": ""
+  }
+]
+}
